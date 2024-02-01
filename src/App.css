@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.whole{
+  background-image: linear-gradient(90deg, #3e32a8, #e310c7 );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border: solid 2px white;
+  border-radius: 5%;
+  padding: 50px 50px 50px 50px;
+}
+.emailHelp{
+  color: white;
+}
+.wholee{
+  background-image: linear-gradient(90deg, #3e32a8, #e310c7 );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.otp{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border: solid 2px white;
+  border-radius: 5%;
+  padding: 50px 50px 50px 50px;
+}
+.emailHelpp{
+  color:aqua;
+  font-size: large;
+}
+.success{
+  background-image: linear-gradient(120deg, #147907, #5c08aa );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+p{
+  font-size: 30px;
+  color: white;
+}
+.failed{
+  background-image: linear-gradient(120deg, #147907, #5c08aa );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+.chatbox{
+  background-image: linear-gradient(120deg, #147907, #5c08aa );
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  
+}
+.inner{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+
+.attachment{
+  margin: auto;
+}
+.sendbutton{
+  margin: auto;
+}
+
+.chatwhole{
+  height: 100vh;
+}
