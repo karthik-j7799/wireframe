@@ -3,9 +3,9 @@ import trophy from '../Assets/trophy.png';
 
 function Success() {
   return (
-    <div className='success'>
+    <div className='success align-middle'>
         <div className='image-success'> 
-            <img src={trophy} style={{height:"300px", width:"300px"}} alt='Successful'/>
+            <img src={trophy} alt='Successful' className='image-success-img'/>
         </div>
         <div className='content'>
             <p>Thankyou for Submitting your problem,<br/> We will get back to you.</p>

@@ -3,9 +3,9 @@ import cross from '../Assets/cross.png'
 
 function Failed() {
   return (
-    <div className='failed'>
+    <div className='success align-middle'>
         <div className='image-success'> 
-            <img src={cross} style={{height:"300px", width:"300px"}} alt='failed'/>
+            <img src={cross} className='image-success-img' alt='failed'/>
         </div>
         <div className='content'>
             <p>You have already used this phone number<br/> To raise a request, Please Enter a <br/>New Phone Number</p>

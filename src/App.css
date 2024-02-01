@@ -16,7 +16,10 @@
   color: white;
   border: solid 2px white;
   border-radius: 5%;
-  padding: 50px 50px 50px 50px;
+  padding: 30px;
+  gap: 10px;
+  width: 350px;
+  font-size: medium;
 }
 .emailHelp{
   color: white;
@@ -43,14 +46,26 @@
 }
 .success{
   background-image: linear-gradient(120deg, #147907, #5c08aa );
+  width: 100vw;
   height: 100vh;
+background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  display: flex;
   flex-direction: row;
   gap: 140px;
+}
+.image-success-img{
+  width: 300px;
+  height: 300px;
+}
+.form-left{
+  width: 60%!important;
+  align-items: start;
+}
+.form-right{
+  width: 60%!important;
 }
 p{
   font-size: 30px;
@@ -70,7 +85,6 @@ p{
 .chatbox{
   background-image: linear-gradient(120deg, #147907, #5c08aa );
   height: 100vh;
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,11 +94,7 @@ p{
   gap: 140px;
 }
 
-.footer{
-  display: flex;
-  flex-direction: column;
-  
-}
+
 .inner{
   display: flex;
   flex-direction: row;
@@ -100,4 +110,26 @@ p{
 
 .chatwhole{
   height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  .success{
+    background-image: linear-gradient(80deg, #147907, #5c08aa );
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .image-success-img{
+    margin-top: 30%;
+    width: 101px;
+    height: 101px;
+    margin-bottom: 30%;
+  }
+  p{
+    font-size: 20px;
+  }
 }

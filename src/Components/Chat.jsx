@@ -1,44 +1,130 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useNavigate } from "react-router-dom";
 
 function Chat() {
+  const navigate = useNavigate();
+  const handleSuccess =()=>{
+    navigate('/Success')
+  }
   return (
     <div>
-      {/* <div className="chatbox"> */}
-        <div class="card border-success mb-4">
-          <div class="card-header bg-transparent border-success">ChatBox</div>
-          <div class="card-body text-success">
-          <input class="form-control" placeholder="Outgoing Text" id="floatingTextarea" rows={2}></input><br/>
-          <input class="form-control" placeholder="Incoming Text" id="floatingTextarea" rows={2}></input>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+
+      <nav className="navbar navbar-light bg-light">
+        <a className="navbar-brand fs-2 pt-3" href="/Chat">
+          ChatBox
+        </a>
+      </nav>
+      <div class="card-body text-success mx-4">
+        <input
+          class="form-control form-left"
+          placeholder="Outgoing Text"
+          id="floatingTextarea"
+          rows={2}
+        ></input>
+        <br />
+        <div className="d-flex justify-content-end pb-4">
+          <input
+            class="form-control form-right"
+            placeholder="Incoming Text"
+            id="floatingTextarea"
+            rows={2}
+          ></input>
+        </div>
+        <input
+          class="form-control form-left"
+          placeholder="Outgoing Text"
+          id="floatingTextarea"
+          rows={2}
+        ></input>
+        <br />
+        <div className="d-flex justify-content-end pb-4">
+          <input
+            class="form-control form-right"
+            placeholder="Incoming Text"
+            id="floatingTextarea"
+            rows={2}
+          ></input>
+        </div>
+        <input
+          class="form-control form-left"
+          placeholder="Outgoing Text"
+          id="floatingTextarea"
+          rows={2}
+        ></input>
+        <br />
+        <div className="d-flex justify-content-end pb-4">
+          <input
+            class="form-control form-right"
+            placeholder="Incoming Text"
+            id="floatingTextarea"
+            rows={2}
+          ></input>
+        </div>
+        <input
+          class="form-control form-left"
+          placeholder="Outgoing Text"
+          id="floatingTextarea"
+          rows={2}
+        ></input>
+        <br />
+        <div className="d-flex justify-content-end pb-4">
+          <input
+            class="form-control form-right"
+            placeholder="Incoming Text"
+            id="floatingTextarea"
+            rows={2}
+          ></input>
+        </div>
+        <input
+          class="form-control form-left"
+          placeholder="Outgoing Text"
+          id="floatingTextarea"
+          rows={2}
+        ></input>
+        <br />
+        <div className="d-flex justify-content-end pb-4">
+          <input
+            class="form-control form-right"
+            placeholder="Incoming Text"
+            id="floatingTextarea"
+            rows={2}
+          ></input>
+        </div>
+        <input
+          class="form-control form-left"
+          placeholder="Outgoing Text"
+          id="floatingTextarea"
+          rows={2}
+        ></input>
+        <br />
+        <div className="d-flex justify-content-end pb-4">
+          <input
+            class="form-control form-right"
+            placeholder="Incoming Text"
+            id="floatingTextarea"
+            rows={2}
+          ></input>
+        </div>
+      </div>
+        <div className="fixed-bottom">
+      <footer className="bg-body-tertiary text-center text-lg-start py-3 px-4">
+        <div className="d-flex justify-content-between gap-5 ">
+          <div className="py-3">
+            <i className="fa-solid fa-plus fs-3"></i>
           </div>
-          <div className="footer">
-          <div class="card-footer bg-transparent border-success">
-            <div className="inner">
-            <div className="attachment">
-            <i class="fa-solid fa-plus"></i>
-            </div>
-            <div class="messagesend">
-              <input
-                type="text"
-                class="form-control"
-                aria-describedby="passwordHelpInline"
-                placeholder="Message"
-              />
-              </div>
-              <div className="sendbutton">
-              <i class="fa-solid fa-arrow-right"></i>
-              </div>
-              </div>
-              </div>
-            </div>
+            <input
+              type="text"
+              className="form-control"
+              aria-describedby="passwordHelpInline"
+              placeholder="Message"
+            />
+          <div className="">
+          <button type="button" class="btn btn-lg btn-success w-100 " onClick={()=>handleSuccess()}>Send</button>
           </div>
         </div>
+      </footer>
+    </div></div>
     //   </div>
-
   );
 }
 

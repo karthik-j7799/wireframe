@@ -6,6 +6,7 @@ import Chat from './Components/Chat';
 import Otp from './Components/Otp';
 import Success from './Components/Success';
 import Failed from './Components/Failed';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
