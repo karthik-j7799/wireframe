@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function Chat() {
@@ -6,6 +6,12 @@ function Chat() {
   const handleSuccess =()=>{
     navigate('/Success')
   }
+
+  const [inputValue, setInputValue] = useState('this is a dummy content ');
+
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+  };
   return (
     <div>
 
@@ -20,15 +26,17 @@ function Chat() {
           placeholder="Incoming Text"
           id="floatingTextarea"
           rows={2}
+          value={inputValue}
+          onChange={handleInputChange}
         ></input>
         <br />
         <div className="d-flex justify-content-end pb-4">
-          <input
+          <div
             class="form-control form-right"
             placeholder="Outgoing Text"
             id="floatingTextarea"
             rows={2}
-          ></input>
+          >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat non placeat ipsum adipisci dolor, porro impedit quidem nulla voluptate deserunt recusandae totam sequi voluptatibus minima quia quas voluptates explicabo nihil?</div>
         </div>
         <input
           class="form-control form-left"
