@@ -7,7 +7,12 @@ function PhLogin() {
 
   const navigate = useNavigate();
   const onSubmit =()=>{
-    navigate('/Otp')
+    if(value===null){
+      alert("Please enter phone number");
+    }
+    else{
+      navigate('/Otp')
+    }
   }
     return (
     <div className='whole'>    
@@ -19,16 +24,16 @@ function PhLogin() {
         </label><br/>
             <input
             type="text"
-            pattern="[0-9]"
+            pattern="[0-9]*"
             inputMode="numeric"
             className="form-control mt-4"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
-            name="email"
             value={value}
             onChange={(e) => setValue(e.target.value.replace(/[^0-9.]/g, '') )}
-
-            required
+            minLength={10}
+            maxLength={10}
+            required={true}
         />
         <div className="emailHelp">
             You will receive an OTP on this number

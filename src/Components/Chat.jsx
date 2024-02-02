@@ -17,7 +17,7 @@ function Chat() {
       <div class="card-body text-success mx-4">
         <input
           class="form-control form-left"
-          placeholder="Outgoing Text"
+          placeholder="Incoming Text"
           id="floatingTextarea"
           rows={2}
         ></input>
@@ -25,14 +25,14 @@ function Chat() {
         <div className="d-flex justify-content-end pb-4">
           <input
             class="form-control form-right"
-            placeholder="Incoming Text"
+            placeholder="Outgoing Text"
             id="floatingTextarea"
             rows={2}
           ></input>
         </div>
         <input
           class="form-control form-left"
-          placeholder="Outgoing Text"
+          placeholder="Incoming Text"
           id="floatingTextarea"
           rows={2}
         ></input>
@@ -40,14 +40,14 @@ function Chat() {
         <div className="d-flex justify-content-end pb-4">
           <input
             class="form-control form-right"
-            placeholder="Incoming Text"
+            placeholder="Outgoing Text"
             id="floatingTextarea"
             rows={2}
           ></input>
         </div>
         <input
           class="form-control form-left"
-          placeholder="Outgoing Text"
+          placeholder="Incoming Text"
           id="floatingTextarea"
           rows={2}
         ></input>
@@ -55,14 +55,14 @@ function Chat() {
         <div className="d-flex justify-content-end pb-4">
           <input
             class="form-control form-right"
-            placeholder="Incoming Text"
+            placeholder="Outgoing Text"
             id="floatingTextarea"
             rows={2}
           ></input>
         </div>
         <input
           class="form-control form-left"
-          placeholder="Outgoing Text"
+          placeholder="Incoming Text"
           id="floatingTextarea"
           rows={2}
         ></input>
@@ -70,14 +70,14 @@ function Chat() {
         <div className="d-flex justify-content-end pb-4">
           <input
             class="form-control form-right"
-            placeholder="Incoming Text"
+            placeholder="Outgoing Text"
             id="floatingTextarea"
             rows={2}
           ></input>
         </div>
         <input
           class="form-control form-left"
-          placeholder="Outgoing Text"
+          placeholder="Incoming Text"
           id="floatingTextarea"
           rows={2}
         ></input>
@@ -85,14 +85,14 @@ function Chat() {
         <div className="d-flex justify-content-end pb-4">
           <input
             class="form-control form-right"
-            placeholder="Incoming Text"
+            placeholder="Outgoing Text"
             id="floatingTextarea"
             rows={2}
           ></input>
         </div>
         <input
           class="form-control form-left"
-          placeholder="Outgoing Text"
+          placeholder="Incoming Text"
           id="floatingTextarea"
           rows={2}
         ></input>
@@ -100,7 +100,7 @@ function Chat() {
         <div className="d-flex justify-content-end pb-4">
           <input
             class="form-control form-right"
-            placeholder="Incoming Text"
+            placeholder="Outgoing Text"
             id="floatingTextarea"
             rows={2}
           ></input>
