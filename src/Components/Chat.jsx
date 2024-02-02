@@ -95,6 +95,7 @@ function Chat() {
           placeholder="Incoming Text"
           id="floatingTextarea"
           rows={2}
+          readOnly
         ></input>
         <br />
         <div className="d-flex justify-content-end pb-4">
@@ -103,6 +104,7 @@ function Chat() {
             placeholder="Outgoing Text"
             id="floatingTextarea"
             rows={2}
+            readOnly
           ></input>
         </div>
       </div>
